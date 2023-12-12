@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+header{
+  padding: 20px;
+  color:#145DA0;
+  background-color: #B1D4E0;
+  
+}
+header h1 {
+  display: inline-block;
+  font-size: 38px;
+}
+header nav {
+  padding-top: 15px;
+  margin-right: 15px;
+  float: right;
+  font-size: 25px;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+header span{
+  background-color:white;
+}
+.hero-banner{
+  height: 300px;
+  background-image:url("../images/02-hero-bg.jpg");
+}
+.hero-banner div{
+  color:blue;
+  font-size: 25px;
+  margin-top: 200px;
+  margin-right: 50px;
+  float: right;
+}
+
+h1
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  
+}
+#Work{
+  display: flex;
+  flex-wrap: wrap; 
+      }
+#Aboutme p{
+      font-size: 25px;
+      
+    }
+.page-section a{
+  font-size: 50px;
+  text-align: center;
+}
+.LEDWall,.SurfReport,.Calculator,.RunBuddy,.Pastelspuzzels{
+    width: 500px;
+    height: 500px;
+  
+  }
+  .LEDWall{
+    
+    background-image: url("../images/02-portfolio-1.jpg");
+     }
+  .Calculator{
+    background-image: url("../images/02-portfolio-2.jpg");
+    }
+  .SurfReport{
+          background-image: url("../images/02-portfolio-4.jpg");
+    }
+  .RunBuddy{
+        background-image: url("../images/02-run-buddy.jpg");
+    }
+  .Pastelspuzzels{
+          background-image: url("../images/02-portfolio-3.jpg");
+    }
+p {
+  margin: 0;
+}
